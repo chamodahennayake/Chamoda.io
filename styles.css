@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #201e1e;
+    color: rgb(35, 167, 207);
+    padding: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(216, 6, 44);
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 5px;
+
+   
+
+        }
+
+        
+    
+
+
+
+  
+  footer {
+    background-color: #da1515;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .container {
+    width: 400px;
+}
+
+.progress {
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius:  30px;
+}
+
+.progress-bar {
+    height: 18px;
+    background-color: rgb(226, 43, 43);
+    border-radius: 30px;
+    animation: progressAnimation 7s;
+}
+
+@keyframes progressAnimation {
+    0% {width: 0%;}
+    80% {width: 80%;}
+    100% {width: 100%;}
+
+
+}
+    
